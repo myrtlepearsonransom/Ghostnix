@@ -1,0 +1,5 @@
+from ghostnix.tracker import GhostnixTracker
+
+if __name__ == "__main__":
+    tracker = GhostnixTracker(interval=60)  # запуск сканера каждую минуту
+    tracker.run()
